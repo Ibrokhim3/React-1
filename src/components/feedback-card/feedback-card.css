@@ -1,0 +1,74 @@
+.feedback-card{
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.feedback-card-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.feedback-card__text-wrapper{
+  
+}
+
+.feedback-card__button{
+  border: none;
+  background: #F2F4FE;
+border-radius: 10px;
+font-weight: 700;
+font-size: 13px;
+line-height: 19px;
+text-align: center;
+letter-spacing: -0.180556px;
+color: #3A4374;
+padding: 14px 9px 8px 9px;
+width: 40px;
+height: 53px;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 8px;
+cursor: pointer;
+
+
+}
+
+.feedback-card__title{
+  font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.25px;
+color: #3A4374;
+margin: 0 0 4px 0;
+}
+
+.feedback-card__text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #647196;
+margin: 0;
+
+}
+
+.feedback-card__comment{
+  font-weight: 700;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+letter-spacing: -0.222222px;
+color: #3A4374;
+}
+
+.feedback-card__comment{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+

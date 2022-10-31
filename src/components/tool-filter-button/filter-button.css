@@ -1,0 +1,17 @@
+.filter-item{
+  list-style: none;
+ 
+}
+
+.filter-button{
+  padding: 5px 16px;
+  font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+  background: #F2F4FF;
+border-radius: 10px;
+border: none;
+color: #4661E6;
+cursor: pointer;
+
+}

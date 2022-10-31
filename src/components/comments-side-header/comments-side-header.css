@@ -1,0 +1,44 @@
+.comments__wrapper{
+  display: flex;
+  align-items: center;
+}
+
+
+.comments__select-wrapper{
+  margin-left: 38px;
+}
+.comments-side-header{
+  display: flex;
+  align-items: center;
+  background: #373F68;
+border-radius: 10px;
+padding: 14px 16px 14px 24px;
+margin-bottom: 24px;
+}
+
+.comments__title{
+  font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.25px;
+color: #FFFFFF;
+margin: 0;
+margin-left: 16px;
+}
+
+.comments__select-label{
+  font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #F2F4FE;
+}
+
+.comments__select{
+  font-weight: 700;
+  background-color: #373F68;
+  border: none;
+  text-transform: capitalize;
+  font-size: 14px;
+line-height: 20px;
+color: #F2F4FE;
+}

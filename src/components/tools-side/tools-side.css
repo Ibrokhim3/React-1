@@ -1,0 +1,4 @@
+.tools-side{
+  display: flex;
+  flex-direction: column;
+}

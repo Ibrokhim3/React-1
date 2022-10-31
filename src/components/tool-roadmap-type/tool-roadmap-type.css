@@ -1,0 +1,39 @@
+.roadmap-item{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px; 
+  /* shu yurda oxirgi item di marginni olib tashlash kerak */
+ 
+}
+
+.roadmap-inner-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.roadmap-text{
+  margin: 0;
+  font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #647196;
+margin-left: 16px;
+}
+
+.roadmap-color{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #F49F85;
+}
+
+.roadmap-num{
+  font-weight: 700;
+font-size: 16px;
+line-height: 23px;
+text-align: right;
+color: #647196;
+
+}
