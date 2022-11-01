@@ -26,8 +26,10 @@ export const FilterList = () => {
   return (
     <div className="filter-list-wrapper">
       <ul className="filter-list">
-        {filterList.map((button) => (
-          <FilterButton button={button} />
+        {filterList.map((button, index) => (
+          <li>
+            <FilterButton key={index}>{button.name}</FilterButton>
+          </li>
         ))}
       </ul>
     </div>

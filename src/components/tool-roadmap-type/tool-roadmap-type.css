@@ -5,7 +5,10 @@
   justify-content: space-between;
   margin-bottom: 8px; 
   /* shu yurda oxirgi item di marginni olib tashlash kerak */
- 
+}
+
+.roadmap-item:last-child{
+  margin-bottom: 0;
 }
 
 .roadmap-inner-wrapper{

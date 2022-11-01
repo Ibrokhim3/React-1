@@ -1,10 +1,11 @@
-.feedback-card-wrapper{
-  background: #FFFFFF;
-border-radius: 10px;
-padding: 28px 32px ;
-}
+
 
 .feedback-card-list{
   margin: 0;
   padding: 0;
+  width: 100%;
+
+}
+
+.feedback-card-wrapper{
 }

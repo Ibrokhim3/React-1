@@ -14,6 +14,7 @@ export const FeedbackCard = ({ card }) => {
         <div className="feedback-card__text-wrapper">
           <h4 className="feedback-card__title">{card.title}</h4>
           <p className="feedback-card__text">{card.desc}</p>
+          <FilterButton>{card.filterButton}</FilterButton>
         </div>
       </div>
       <span className="feedback-card__comment">
