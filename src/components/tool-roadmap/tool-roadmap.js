@@ -4,14 +4,17 @@ import "./tool-roadmap.css";
 export const ToolRoadmap = () => {
   const roadmapList = [
     {
+      color: "#F49F85",
       status: "Planned",
       number: 2,
     },
     {
+      color: "#AD1FEA",
       status: "In-Progress",
       number: 3,
     },
     {
+      color: "#62BCFA",
       status: "Live",
       number: 1,
     },

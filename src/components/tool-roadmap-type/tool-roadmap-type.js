@@ -1,14 +1,19 @@
 import "./tool-roadmap-type.css";
 
-export const RoadmapType = ({ item }) => {
+export const RoadmapType = ({ item: { status, number, color } }) => {
   return (
     <li className="roadmap-item">
       <div className="roadmap-inner-wrapper">
-        <span className="roadmap-color"></span>
-        <p className="roadmap-text">{item.status}</p>
+        <span
+          style={{
+            background: color,
+          }}
+          className="roadmap-color"
+        ></span>
+        <p className="roadmap-text">{status}</p>
       </div>
 
-      <span className="roadmap-num">{item.number}</span>
+      <span className="roadmap-num">{number}</span>
     </li>
   );
 };

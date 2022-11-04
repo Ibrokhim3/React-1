@@ -4,6 +4,7 @@ import "./feedback-cards.css";
 export const FeedbackCards = () => {
   const feedbackCards = [
     {
+      id: 1,
       title: "Add tags for solutions",
       desc: "Easier to search for solutions based on a specific stack.",
       commentNumber: 2,
@@ -11,6 +12,7 @@ export const FeedbackCards = () => {
       filterButton: "Enhancement",
     },
     {
+      id: 2,
       title: "Add a dark theme option",
       desc: "It would help people with light sensitivities and who prefer dark mode.",
       commentNumber: 4,
@@ -18,6 +20,7 @@ export const FeedbackCards = () => {
       filterButton: "Feature",
     },
     {
+      id: 3,
       title: "Q&A within the challenge hubs",
       desc: "Challenge-specific Q&A would make for easy reference.",
       commentNumber: 1,
@@ -25,6 +28,7 @@ export const FeedbackCards = () => {
       filterButton: "Feature",
     },
     {
+      id: 4,
       title: "Allow image/video upload to feedback",
       desc: "Images and screencasts can enhance comments on solutions.",
       commentNumber: 2,
@@ -32,6 +36,7 @@ export const FeedbackCards = () => {
       filterButton: "Enhancement",
     },
     {
+      id: 5,
       title: "Ability to follow others",
       desc: "Stay updated on comments and solutions other people post.",
       commentNumber: 3,
@@ -39,6 +44,7 @@ export const FeedbackCards = () => {
       filterButton: "Feature",
     },
     {
+      id: 6,
       title: "Preview images not loading",
       desc: "Challenge preview images are missing when you apply a filter.",
       commentNumber: 0,
@@ -46,6 +52,7 @@ export const FeedbackCards = () => {
       filterButton: "Bug",
     },
   ];
+
   return (
     <div className="feedback-card-wrapper">
       <ul className="feedback-card-list">

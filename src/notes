@@ -1,5 +1,8 @@
 + simvoli qoyishi topish kerak
 display flex qiganda chozilib ketishi
-header sig'may qolishi
+header sigmay qolishi
 type buttoni ishlata olmadim componenet sifatida
-li larni ajratish kerak
+li larni ajratish kerak;
+
+
+unique key errorini togirlash uchcun 00:19:00 Routes ga bolish darsi
