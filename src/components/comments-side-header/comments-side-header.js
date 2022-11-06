@@ -23,8 +23,7 @@ export const CommentSideHeader = () => {
           </select>
         </div>
       </div>
-      <Button to={""}>+ Add Feedback</Button>
-      {/* oxshamadi botta link bolishi kerak */}
+      <Button to={"#"}>+ Add Feedback</Button>
     </header>
   );
 };

@@ -2,6 +2,7 @@ import "./feedback-card.css";
 import commentIcon from "./../../assets/icons/Path.svg";
 import { FilterButton } from "../tool-filter-button/filter-button";
 import array from "./../../assets/icons/Path 2.svg";
+import { Title } from "../title/title";
 
 export const FeedbackCard = ({ card }) => {
   return (
@@ -12,7 +13,9 @@ export const FeedbackCard = ({ card }) => {
           {card.like}
         </button>
         <div className="feedback-card__text-wrapper">
-          <h4 className="feedback-card__title">{card.title}</h4>
+          <Title to={"#"} margin="0 0 4px">
+            {card.title}
+          </Title>
           <p className="feedback-card__text">{card.desc}</p>
           <FilterButton>{card.filterButton}</FilterButton>
         </div>

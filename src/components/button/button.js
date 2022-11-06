@@ -1,17 +1,31 @@
 import "./button.css";
 import { Link } from "react-router-dom";
 
-export const Button = ({ to, children, type = "submit" }) => {
+const btnColors = {
+  purple: "#AD1FEA",
+  blue: "#4661E6",
+};
+
+export const Button = ({ to, children, type = "submit", background }) => {
+  const activeBackround = btnColors[background] || background;
   if (to)
     return (
-      <Link className="button" to={to}>
+      <Link
+        style={{ background: activeBackround, textDecoration: "none" }}
+        className="button"
+        to={to}
+      >
         {children}
       </Link>
     );
   return (
-    <button type={type} className="button">
+    <button
+      style={{ background: activeBackround }}
+      type={type}
+      className="button"
+    >
       {children}
     </button>
-  ); //shu link bo'lishi kerak / va boshqa xolatda button bolish kerak 1:11:00 route darsi
+  );
   //color uchun 1:15:00
 };

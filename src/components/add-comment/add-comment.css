@@ -1,0 +1,37 @@
+
+.add-comment{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 24px 32px 32px 34px;
+}
+
+.add-comment__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-comment__counter{
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #647196;
+
+}
+
+
+.add-comment__input{
+  background: #F7F8FD;
+border-radius: 5px;
+border: none;
+padding: 16px 24px;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #8C92B3;
+width: 100%;
+height: 80px;
+margin-bottom: 16px;
+
+}

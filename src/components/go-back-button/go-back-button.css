@@ -1,0 +1,18 @@
+.go-back-button{
+  font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+color: #647196;
+text-decoration: none;
+display: flex;
+align-items: baseline;
+text-transform: capitalize;
+gap: 15px;
+
+}
+
+.go-back-button__img{
+
+}
+
+
